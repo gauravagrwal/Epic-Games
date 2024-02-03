@@ -1,0 +1,570 @@
+15:46:09:939 (00033144) > [Startup] Shadow of the Tomb Raider
+15:46:09:939 (00033144) > [Startup] ==============
+15:46:09:939 (00033144) > [Startup] 
+15:46:09:939 (00033144) > [Startup] Build: v1.0 build 492.0_64
+15:46:09:939 (00033144) > [Startup] Windows 10.0 (build 22635)
+15:46:09:939 (00033144) > [Startup] Game directory: C:\Users\gaura\OneDrive\Documents\Shadow of the Tomb Raider\
+15:46:09:939 (00033144) > [Startup] 
+15:46:09:940 (00033144) > [Startup] Memory statistics:
+15:46:09:940 (00033144) > [Startup]   Total RAM = 15.3 GB (15713 MB)
+15:46:09:940 (00033144) > [Startup]   Avail RAM = 4.6 GB (4739 MB)
+15:46:09:940 (00033144) > [Startup]   Total virtual memory = 131072.0 GB (134217727 MB)
+15:46:09:940 (00033144) > [Startup]   Avail virtual memory = 131064.8 GB (134210305 MB)
+15:46:09:940 (00033144) > [Startup] 
+15:46:09:940 (00033144) > [NxApp] PreInit
+15:46:09:940 (00033144) > [Epic] Initializing Epic SDK.
+15:46:09:954 (00033144) > [Epic] Initialized. Setting Logging Callback ...
+15:46:09:954 (00033144) > [Epic] Logging Callback Set
+15:46:09:954 (00033144) > [Epic] Creating platform.
+15:46:09:954 (00033144) > [Epic] LogEOS: [Boot] EOSSDK Version 1.14.2-20976885 booting at 2024-02-03T10:16:09.954Z
+15:46:09:954 (00033144) > [Epic] LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.22621.2706.64bit, ClientId=xyza7891XYfgHfYo1bSagtshh0HmrTik, ProductId=648c457accfa4440a48b5aabf0de7eca, SandboxId=4b5461ca8d1c488787b5200b420de066, DeploymentId=e2a7efda4c2b4ac2915e099875cf809d, ProductName=Cinereous, ProductVersion=1.0, IsServer=false, Flags=None]
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Overlay library loaded, version ++EOSSDK+Release-Overlay-CL-25975892
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Beginning dxgi factory detour
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Factory detour complete
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Beginning swap chain detour
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Attempting to create swap chain using D3D11
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Successfully created swap chain using D3D11 with feature level b000
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Swapchain detour complete
+15:46:10:388 (00033144) > [Epic] LogEOSOverlay: Overlay loaded and initialized
+15:46:10:403 (00033144) > [Epic] LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+15:46:10:403 (00033144) > [Epic] Platform created.
+15:46:10:403 (00033144) > [SwapChain] Initializing...
+15:46:10:403 (00033144) > [DXGI] Initializing...
+15:46:10:404 (00033144) > [DXGI] Created DXGIFactory1
+15:46:10:404 (00033144) > [DXGI] Successfully initialized.
+15:46:10:404 (00033144) > [Render] Enumerating adapters:
+15:46:10:404 (00033144) > [Render] 	Adapter 0:
+15:46:10:404 (00033144) > [Monitor] 		Description             : NVIDIA GeForce RTX 3050 Laptop GPU
+15:46:10:404 (00033144) > [Monitor] 		Vendor                  : nVidia (10de)
+15:46:10:404 (00033144) > [Monitor] 		Device                  : 25a2
+15:46:10:404 (00033144) > [Monitor] 		Sub system              : 88de103c
+15:46:10:404 (00033144) > [Monitor] 		Revision                : 161
+15:46:10:404 (00033144) > [Monitor] 		Dedicated Video Memory  : 3977 MB
+15:46:10:404 (00033144) > [Monitor] 		Dedicated System Memory : 0000 MB
+15:46:10:404 (00033144) > [Monitor] 		Shared System Memory    : 7856 MB
+15:46:10:404 (00033144) > [Monitor] 
+15:46:10:404 (00033144) > [Render] Loading NVAPI...
+15:46:10:404 (00033144) > [Render] Done loading NVAPI
+15:46:10:404 (00033144) > [Render] 	Adapter 1:
+15:46:10:405 (00033144) > [Monitor] 		Description             : AMD Radeon(TM) Graphics
+15:46:10:405 (00033144) > [Monitor] 		Vendor                  : AMD (1002)
+15:46:10:405 (00033144) > [Monitor] 		Device                  : 1638
+15:46:10:405 (00033144) > [Monitor] 		Sub system              : 88de103c
+15:46:10:405 (00033144) > [Monitor] 		Revision                : 197
+15:46:10:405 (00033144) > [Monitor] 		Dedicated Video Memory  : 0495 MB
+15:46:10:405 (00033144) > [Monitor] 		Dedicated System Memory : 0000 MB
+15:46:10:405 (00033144) > [Monitor] 		Shared System Memory    : 7856 MB
+15:46:10:405 (00033144) > [Monitor] 
+15:46:10:405 (00033144) > [Render] Loading ADL...
+15:46:10:440 (00033144) > [Render] AGS init succeeded
+15:46:10:440 (00033144) > [Render] AGS Radeon Software Version: 24.1.1
+15:46:10:440 (00033144) > [Render] Done loading ADL and AGS
+15:46:10:440 (00033144) > [Render] 	Adapter 2:
+15:46:10:440 (00033144) > [Monitor] 		Description             : Microsoft Basic Render Driver
+15:46:10:440 (00033144) > [Monitor] 		Vendor                  : Unknown (1414)
+15:46:10:440 (00033144) > [Monitor] 		Device                  : 8c
+15:46:10:441 (00033144) > [Monitor] 		Sub system              : 0
+15:46:10:441 (00033144) > [Monitor] 		Revision                : 0
+15:46:10:441 (00033144) > [Monitor] 		Dedicated Video Memory  : 0000 MB
+15:46:10:441 (00033144) > [Monitor] 		Dedicated System Memory : 0000 MB
+15:46:10:441 (00033144) > [Monitor] 		Shared System Memory    : 7856 MB
+15:46:10:441 (00033144) > [Monitor] 
+15:46:10:441 (00033144) > [Render] Enumerating monitors:
+15:46:10:441 (00033144) > [Render] 	Monitor 0: handle = 0000000000010001, aspect = 1.78
+15:46:10:441 (00033144) > [Render] 
+15:46:10:677 (00033144) > [Render] NVidia 3D Vision is not enabled.
+15:46:10:677 (00033144) > [Render] Enumerating Display Modes:
+15:46:10:677 (00033144) > [Render] Querying ADL for Eyefinity modes
+15:46:10:679 (00033144) > [Render] Querying NVAPI for Surround modes
+15:46:10:679 (00033144) > [Render] NvAPI_DISP_GetGDIPrimaryDisplayId returned NVAPI_NVIDIA_DEVICE_NOT_FOUND (fffffffa)
+
+15:46:11:870 (00033144) > [NxDLSS] DLSS support test, code = 0x00000001, info: NVSDK_NGX_Result_Success
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1920 x 1080)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1920 x 1080)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (800 x 600)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1024 x 768)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1128 x 634)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:382 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 720)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1280 x 1024)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1366 x 768)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1600 x 900)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1680 x 1050)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1760 x 990)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1920 x 1080)
+15:46:13:383 (00033144) > [Intel XeSS:] pushing Resolution (1920 x 1080)
+15:46:13:444 (00033144) > [Render] 	Monitor '1 (NVIDIA GeForce RTX 3050 Laptop GPU(1))' (0000000000010001):
+15:46:13:444 (00033144) > [Render] 		- Mode  0 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  1 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  2 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  3 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  4 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  5 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  6 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  7 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  8 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode  9 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 10 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 11 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 12 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 13 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 14 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 15 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 16 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 17 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 18 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 19 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 20 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 21 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 22 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 23 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 24 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 25 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 26 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 27 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 28 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 29 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 30 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 31 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 32 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 33 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 34 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 35 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 36 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 37 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 38 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 39 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 40 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 41 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 42 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 43 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 44 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 45 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 46 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 47 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 48 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 49 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 50 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 51 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 52 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 53 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 54 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 55 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 56 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 57 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 58 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 59 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:444 (00033144) > [Render] 		- Mode 60 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 61 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 62 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 63 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 64 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 65 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 66 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 67 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 68 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 69 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 70 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 71 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 72 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 73 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 74 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 75 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 76 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 77 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 78 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 79 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 80 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 81 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 82 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 83 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 84 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 85 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 86 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 87 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 88 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 89 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 90 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 91 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 92 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 93 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 94 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 95 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 96 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 97 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 98 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 99 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 100 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 101 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 102 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 103 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 104 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 105 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 106 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 107 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 108 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 109 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 110 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 111 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 112 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 113 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 114 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 115 :  800 x  600 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 116 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 117 :  800 x  600 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 118 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 119 : 1024 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 120 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 121 : 1024 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 122 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 123 : 1128 x  634 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 124 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 125 : 1128 x  634 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 126 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 127 : 1280 x  720 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 128 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 129 : 1280 x  720 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 130 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 131 : 1280 x 1024 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 132 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 133 : 1280 x 1024 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 134 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 135 : 1366 x  768 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 136 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 137 : 1366 x  768 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 138 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 139 : 1600 x  900 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 140 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 141 : 1600 x  900 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 142 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 143 : 1680 x 1050 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 144 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 145 : 1680 x 1050 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 146 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 147 : 1760 x  990 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 148 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 149 : 1760 x  990 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 150 : 1920 x 1080 @  60 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] 		- Mode 151 : 1920 x 1080 @ 144 Hz, stereo = 0, hdr = 0
+15:46:13:445 (00033144) > [Render] ***** Additional Monitor Output Info *****
+15:46:13:445 (00033144) > [Render] 		BitsPerColor: 8
+15:46:13:445 (00033144) > [Render] 		Primaries: R=0.6396;0.3301  G=0.3047;0.6055  B=0.1504;0.0547  White-Point=0.3135;0.3291
+15:46:13:445 (00033144) > [Render] 		HDR: No (Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709)
+15:46:13:445 (00033144) > [Render] 		Luminance: Min=0.5000 Max=270.0000 MaxFullFrame=270.0000
+15:46:13:445 (00033144) > [Render] ******************************************
+15:46:13:445 (00033144) > [Render] 
+15:46:13:445 (00033144) > [SwapChain] Successfully initialized.
+15:46:13:445 (00033144) > [NxApp] PreInit successful.
+15:46:13:445 (00033144) > [Main] Current directory: G:\Epic Games\ShadowoftheTombRaider
+15:46:13:445 (00033144) > [Main] Working directory: G:\Epic Games\ShadowoftheTombRaider
+15:46:13:445 (00033144) > [SKU] Activating WWW SKU en
+15:46:13:456 (00033144) > [MultiCore] CPU count: logical = 16
+15:46:13:611 (00033144) > [Main] Epic Language: 'en'
+15:46:13:611 (00033144) > [Main] Settings: Text Language: 'en-us' | VO Language: 'en-us' | Steam Game Language 'en-us'
+15:46:13:612 (00033144) > [Main] Using: Text Language: 'en-us' | VO Language: 'en-us'
+15:46:14:163 (00033144) > [Validate Settings] Monitor #0
+15:46:14:163 (00033144) > [Validate Settings] Desktop settings (Resolution: 1920 x 1080, Refresh rate: 60hz, Multi-monitor: off, Bezel correction: off)
+15:46:14:163 (00033144) > [NxApp] Querying GPU Driver Info...
+15:46:14:163 (00033144) > [NxApp] Enumerating available display adapters:
+15:46:14:164 (00033144) > [NxApp] 		NVIDIA GeForce RTX 3050 Laptop GPU (active)
+15:46:14:165 (00033144) > [NxApp] 		AMD Radeon(TM) Graphics
+15:46:14:166 (00033144) > [NxApp] Successfully found GPU Driver Info
+15:46:19:349 (00033144) > [Validate Settings] Monitor #0
+15:46:19:349 (00033144) > [Validate Settings] Desktop settings (Resolution: 1920 x 1080, Refresh rate: 60hz, Multi-monitor: off, Bezel correction: off)
+15:46:19:656 (00033144) > [D3D] Max supported feature level: 11.0
+15:46:19:802 (00023796) > [Render] VMEM Budget: 3380 MB
+15:46:19:802 (00023796) > [Render] VMEM Avaialbe: 3335 MB
+15:46:19:802 (00023796) > [Render] GPU node count: 1
+15:46:19:851 (00033144) > [NxApp] Querying GPU Driver Info...
+15:46:19:853 (00033144) > [NxApp] Enumerating available display adapters:
+15:46:19:853 (00033144) > [NxApp] 		NVIDIA GeForce RTX 3050 Laptop GPU (active)
+15:46:19:854 (00033144) > [NxApp] 		AMD Radeon(TM) Graphics
+15:46:19:855 (00033144) > [NxApp] Successfully found GPU Driver Info
+15:46:19:855 (00033144) > [NxApp] Driver Desc: NVIDIA GeForce RTX 3050 Laptop GPU
+15:46:19:855 (00033144) > [NxApp] Driver Version: 31.0.15.4633
+15:46:19:855 (00033144) > [Settings] DirectX Version: 12
+15:46:19:855 (00033144) > [Settings] Window mode:
+15:46:19:855 (00033144) > [Settings] 	Fullscreen: 1
+15:46:19:855 (00033144) > [Settings] 	Excl.Fullscreen: 0
+15:46:19:855 (00033144) > [Settings] 	Monitor: 0
+15:46:19:855 (00033144) > [Settings] 		Monitor Rect: x: 0 y: 0 w: 1920 h: 1080
+15:46:19:855 (00033144) > [Settings] 		Workspace Rect: x: 0 y: 0 w: 1920 h: 1020
+15:46:19:855 (00033144) > [Settings] 		Aspect Ratio: 1.773196 (Pixel Aspect Ratio: 1.002584)
+15:46:19:855 (00033144) > [Settings] Fullscreen display mode:
+15:46:19:855 (00033144) > [Settings] 	Display mode: 1920x1080@60
+15:46:19:855 (00033144) > [Settings] 		VSync: 0
+15:46:19:855 (00033144) > [Settings] 		MultiMonitor: 0
+15:46:19:855 (00033144) > [Settings] 		BezelCorrected: 0
+15:46:19:855 (00033144) > [Settings] 		Stereoscopic3D: 0
+15:46:19:855 (00033144) > [Settings] 		SHDR: 0
+15:46:19:855 (00033144) > [Settings] Window settings:
+15:46:19:855 (00033144) > [Settings] 	Window rect: x: 240 y: 135 w: 1440 h: 810
+15:46:19:855 (00033144) > [Settings] 	User window: w: 1440 h: 810
+15:46:19:855 (00033144) > [Settings] 	Window maximized: 0
+15:46:19:855 (00033144) > [Settings] Graphics Options:
+15:46:19:855 (00033144) > [Settings] 	TextureQuality: 2, TextureFiltering: 2, ShadowQuality: 2
+15:46:19:855 (00033144) > [Settings] 	RT: 0
+15:46:19:855 (00033144) > [Settings] 	RTDenoiseMethod: Auto
+15:46:19:855 (00033144) > [Settings] 	AO: 1, DOF: 1, AA: 0, Bloom: 1
+15:46:19:855 (00033144) > [Settings] 	MotionBlur: 1 Tessellation: 1
+15:46:19:855 (00033144) > [Settings] 	LensFlares: 1 ScreenFX: 1 SSR: 1 HairQuality: 1
+15:46:19:855 (00033144) > [Settings] 	Specular Reflection Quality: 0
+15:46:19:855 (00033144) > [Settings] 	FOVCorrection :1.000000
+15:46:19:855 (00033144) > [Settings] 	LevelOfDetail: 2
+15:46:19:855 (00033144) > [Settings] 	StereoSeparation: 0.022000
+15:46:19:855 (00033144) > [Settings] 	StereoPopOut: 5.000000
+15:46:19:855 (00033144) > [Settings] 	StereoNearSeparationMultiplier :0.350000
+15:46:19:855 (00033144) > [Settings] 	HDR luminance :1.000000
+15:46:19:855 (00033144) > [Settings] 	DLSS: Quality
+15:46:19:855 (00033144) > [Settings] XeSS: Off
+
+15:46:19:855 (00033144) > [NxApp] Creating window...
+15:46:19:860 (00025500) > [GameWindow] UpdateState bVisible true
+15:46:19:901 (00025500) > [Input] Keyboard language: "English (India)" (id: 16393)
+15:46:19:901 (00025500) > [Input] Keyboard physical layout: "India" (id: 00004009)
+15:46:19:901 (00025500) > [Input] Human Input Device  "Microsoft Input Configuration Device"   product 0 vendor 0 version 0 usage 0 usagePage 0
+15:46:19:902 (00025500) > [Input] Human Input Device  "ELAN PrecisionTouchpad Filter Driver"   product 12541 vendor 1267 version 1 usage 5 usagePage 13
+15:46:19:902 (00025500) > [Input] Human Input Device  "ELAN HID Class Filter Driver"   product 12541 vendor 1267 version 1 usage 1 usagePage 65280
+15:46:19:902 (00025500) > [Input] Human Input Device  ""   product 617 vendor 76 version 0 usage 20 usagePage 65280
+15:46:19:902 (00025500) > [Input] Joystick            ""   product 4684 vendor 1008 version 0 usage 1 usagePage 65285 xinput no
+15:46:19:902 (00025500) > [Input] Joystick            ""   product 4684 vendor 1008 version 0 usage 1 usagePage 65285 xinput no
+15:46:19:902 (00025500) > [Input] Human Input Device  "HID-compliant wireless radio controls"   product 1 vendor 1 version 1 usage 12 usagePage 1
+15:46:19:903 (00025500) > [Input] Joystick            ""   product 4684 vendor 1008 version 0 usage 1 usagePage 12 xinput no
+15:46:19:903 (00025500) > [Input] Keyboard            "Standard PS/2 Keyboard"   type 7 subType 0 mode 1 function 12 indicators 3 total 101
+15:46:19:903 (00025500) > [Input] Mouse               "ELAN Input Device"   id 128 buttons 2 sampleRate 0 horizontalWheel no
+15:46:19:903 (00025500) > [Input] Keyboard            "HID Keyboard Device"   type 81 subType 0 mode 1 function 12 indicators 3 total 264
+15:46:19:903 (00025500) > [Input] Mouse               "HID-compliant mouse"   id 256 buttons 8 sampleRate 0 horizontalWheel no
+15:46:19:903 (00025500) > [Input] Mouse               ""   id 128 buttons 2 sampleRate 0 horizontalWheel no
+15:46:19:937 (00025500) > [Input] Using LibScePad
+15:46:19:939 (00025500) > [XInput] Enumerating available xusb hid devices:
+
+15:46:19:944 (00033144) > [NxApp] Window created.
+15:46:19:945 (00033144) > [NxApp] Initializing swapchain...
+15:46:19:945 (00023796) > [SwapChain] Creating...
+15:46:19:945 (00023796) > [Render] NVidia 3D Vision is not enabled.
+15:46:19:945 (00023796) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+15:46:20:069 (00023796) > [DXGI] Created swapchain.
+15:46:20:098 (00023796) > [SwapChain] Gamma correction is enabled.
+15:46:20:098 (00023796) > [SwapChain] Successfully created.
+15:46:20:098 (00023796) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+15:46:20:098 (00033144) > [NxApp] Swapchain initialized
+15:46:20:098 (00033144) > [NxApp] Initializing renderer...
+15:46:20:105 (00033144) > [NxApp] Renderer initialized
+15:46:20:105 (00033144) > [Ansel] Successfully initialized Ansel
+15:46:20:105 (00033144) > [Main] Starting Tomb Raider v1.0 build 492.0_64
+15:46:20:124 (00033144) > [DX12] ID3D12Device1 interface detected; enabling additional features
+15:46:20:124 (00033144) > [DX12] ID3D12Device5 interface detected
+15:46:20:124 (00033144) > [DX12] Raytracing support detected; Enabling additional features
+15:46:20:124 (00033144) > [Render] Using root signature version: 1.0
+15:46:20:125 (00033144) > [Render] Supported shader model: 0x51
+15:46:20:269 (00033144) > [DX12] Nvidia Modified W support detected
+15:46:20:303 (00033144) > [D3D] R11G11B10 Typed UAV Loads are SUPPORTED.
+15:46:20:321 (00033144) > [HBAO+] HBAO+ Context creation succeeded
+15:46:20:528 (00033144) > [ GFSDK_ShadowLib]  GFSDK_ShadowLib Context creation succeeded
+15:46:21:578 (00033144) > [NxSwapChainImpl] Swapchain native backbuffer (windows) resolution: 1920x1080
+15:46:21:581 (00033144) > [D3D] Enabling render target pooling
+15:46:21:583 (00033144) > [D3D] Opened game pipeline cache file: pipe_cache.bin
+15:46:22:025 (00033144) > [D3D] Read 105402 pipelines from cache file. Added 105402 pipelines to cache, found 0 duplicates.
+15:46:22:025 (00033144) > [D3D] Closed game pipeline cache file: pipe_cache.bin
+15:46:22:027 (00033144) > [D3D] Opened user pipeline cache file: C:\Users\gaura\AppData\Roaming\Eidos Montreal\Shadow of the Tomb Raider\pipe_cache.bin
+15:46:22:032 (00033144) > [D3D] Read 557 pipelines from cache file. Added 557 pipelines to cache, found 0 duplicates.
+15:46:22:032 (00033144) > [D3D] Closed user pipeline cache file: C:\Users\gaura\AppData\Roaming\Eidos Montreal\Shadow of the Tomb Raider\pipe_cache.bin
+15:46:22:067 (00014348) > [D3D] cdc::PCDX12PipelineCache::AddPipeline: CreateGraphicsPipelineState failed with HRESULT 0x80070057
+15:46:22:555 (00033144) > [Sound] Default audio device Headphones boAt Rockerz 400
+15:46:22:641 (00004548) > [DLSS] Uninitialised to initialised for node 0
+15:46:23:630 (00033224) > [Audio] Using Default Audio Sink
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Probing swap chain to determine device version
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Probe complete, determined: D3D12
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Window subclass attached to 00000000000411D6
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Creating overlay widget manager
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Launching render process
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Overlay ready. Firing 1 OnReady handlers
+15:46:24:048 (00033144) > [Epic] LogEOSOverlay: Tick thread starting...
+15:46:24:048 (00033144) > [Epic] LogEOS: [Boot] EOSSDK Version 1.14.2-20976885 booting at 2024-02-03T10:16:24.048Z
+15:46:24:048 (00033144) > [Epic] LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.22621.2706.64bit, ClientId=xyza7891XYfgHfYo1bSagtshh0HmrTik, ProductId=648c457accfa4440a48b5aabf0de7eca, SandboxId=4b5461ca8d1c488787b5200b420de066, DeploymentId=e2a7efda4c2b4ac2915e099875cf809d, ProductName=Cinereous, ProductVersion=1.0, IsServer=false, Flags=None]
+15:46:24:069 (00033144) > [Epic] LogEOSOverlay: Overlay loaded and initialized
+15:46:24:069 (00033144) > [Epic] LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+15:46:24:076 (00033144) > [Input] Assigned gamepad -1 to player 0
+15:46:24:701 (00033144) > [Epic] LogEOS: Large tick time detected 14.2974
+15:46:24:703 (00033144) > [Epic] LogEOS: Updating Platform SDK Config, Time: 14.297421
+15:46:25:299 (00033144) > [Epic] LogEOSAuth: No valid auth for userid = c11...e2b
+15:46:25:299 (00033144) > [Epic] LogEOSAuth: No valid auth for userid = c11...e2b
+15:46:25:299 (00033144) > [Epic] LogEOSAuth: No valid auth for userid = c11...e2b
+15:46:25:299 (00033144) > [Epic] LogEOSAuth: No valid auth for userid = c11...e2b
+15:46:25:299 (00033144) > [Epic] LogEOSAuth: No valid auth for userid = c11...e2b
+15:46:25:299 (00033144) > [Epic] LogEOSAuth: No valid auth for userid = c11...e2b
+15:46:25:311 (00033144) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+15:46:25:311 (00033144) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+15:46:25:311 (00033144) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+15:46:25:311 (00033144) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+15:46:27:250 (00033144) > [Epic] LogEOS: SDK Config Platform Update Request Successful, Time: 16.819145
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Start Session (User: ...)
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: SDKOverlayComponent.Init <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.OverlayLoaded <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.FactoryDetour <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.SwapchainDetour <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.ObserveBrowserStatus <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterKeyListener <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:253 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:254 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.OverlayInitialized <Redacted>
+15:46:27:254 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+15:46:27:254 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.LaunchRenderProcess <Redacted>
+15:46:27:254 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
+15:46:27:254 (00033144) > [Epic] LogEOSAnalytics: Record Event: Overlay.SwapChainCreated <Redacted>
+15:46:27:254 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:27:254 (00033144) > [Epic] WARNING: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+15:46:27:258 (00033144) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+15:46:27:258 (00033144) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+15:46:27:258 (00033144) > [Epic] LogEOS: Updating Product SDK Config, Time: 16.844851
+15:46:27:576 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:27:597 (00033144) > [Epic] LogEOSConnect: ConnectClientAuthTask Success
+15:46:27:625 (00033144) > [Epic] LogEOSAnalytics: Start Session (User: ...)
+15:46:27:926 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:27:948 (00033144) > [Epic] LogEOS: SDK Config Product Update Request Successful, Time: 17.520685
+15:46:27:951 (00033144) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+15:46:27:951 (00033144) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+15:46:27:951 (00033144) > [Epic] LogEOS: SDK Config Data - Watermark: 741387304
+15:46:27:951 (00033144) > [Epic] LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17.520685, Update Interval: 319.135101
+15:46:28:325 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:28:341 (00033144) > [Epic] LogEOSAuth: UserAuth Success
+15:46:28:341 (00033144) > [Epic] LogEOSAuth: NewUserToken: User ClientId: xyz...Tik AccountId: c11...e2b Access[Expires: 2024.02.03-12.16.39 Remaining: 7200.28] Refresh[Expires: 2024-02-03T18:16:39.282Z Remaining: 28800.28] State: Valid
+15:46:28:367 (00033144) > [Epic] LogEOSAuth: GenerateUserAuth success
+15:46:28:674 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:28:700 (00033144) > [Epic] LogEOSAuth: login/queryuserinfo success
+15:46:28:703 (00033144) > [Epic] LogEOSUI: Social Overlay: 'leaderboards' feature disabled by overlay.
+15:46:28:707 (00033144) > [Epic] Main user login status changed
+15:46:28:708 (00033144) > [Epic] LogEOSAuth: Login Tasks Complete: 0
+15:46:28:743 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:28:768 (00033144) > [Epic] LogEOSUI: Social Overlay: Loading: <Redacted>
+15:46:28:768 (00033144) > [Epic] LogEOSUI: Social Overlay: Initital DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox(unset) }
+15:46:28:768 (00033144) > [Epic] LogEOSOverlay: Overlay loading <Redacted> in instance 1638543536400
+15:46:28:798 (00033144) > [Epic] LogEOSOverlay: LoadURL result received. [Success=1, BrowserID=1]
+15:46:28:869 (00033144) > [Epic] LogEOSOverlay: Browser status 0 received for browser 1
+15:46:29:601 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:29:618 (00033144) > [Epic] LogEOSMessaging: Attempting connection to Stomp. LocalUserId=[000...a2d] Url=[<Redacted>]
+15:46:29:744 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing player data for (c11...e2b) [state: 0, force: player? false, definitions? false].
+15:46:29:917 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:29:940 (00033144) > [Epic] LogEOSP2P: Applying updated RTC Configuration
+15:46:29:966 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:30:700 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:30:793 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:30:816 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements data incomplete, starting next refresh for (c11...e2b).
+15:46:30:816 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing definition data for (c11...e2b) [state: 2, force: player? false, definitions? false].
+15:46:30:995 (00033144) > [Epic] LogEOSMessaging: Succesfully connected to Stomp. LocalUserId=[000...a2d]
+15:46:31:044 (00033144) > [Epic] LogEOSPresence: Updating Presence to Online. LocalUserId=[c11...e2b] RichText=[]
+15:46:31:292 (00033144) > [Epic] LogEOSMessaging: Stomp subscribed to topic /e2a7efda4c2b4ac2915e099875cf809d/account/0002f4ecff6d43989c0e6b78ec044a2d
+15:46:31:299 (00017924) > [Audio] Using Default Audio Sink
+15:46:31:343 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:31:743 (00033144) > [Epic] LogEOSOverlay: Browser status 1 received for browser 1
+15:46:31:743 (00033144) > [Epic] LogEOSUI: Social Overlay: Initial setup of friends overlay: EOS_Success
+15:46:31:869 (00033144) > [Epic] LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
+15:46:31:870 (00033144) > [Epic] LogEOSAnalytics: Record Event: eos.social.appstartup <Redacted>
+15:46:31:944 (00033144) > [Epic] LogEOSAnalytics: Record Event: eos.social.statechange <Redacted>
+15:46:31:944 (00033144) > [Epic] LogEOSAnalytics: Record Event: eos.social.sdk.time_to_first_payload <Redacted>
+15:46:33:244 (00033144) > [Epic] LogEOSAnalytics: Record Event: eos.social.add-notification <Redacted>
+15:46:33:244 (00033144) > [Epic] LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+15:46:33:244 (00033144) > [Epic] LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+15:46:33:245 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing player data for (c11...e2b) [state: 1, force: player? false, definitions? false].
+15:46:33:245 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements data incomplete, starting next refresh for (c11...e2b).
+15:46:33:245 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing definition data for (c11...e2b) [state: 2, force: player? false, definitions? false].
+15:46:33:245 (00033144) > [Epic] LogEOSOverlay: Automatically giving keyboard focus to webview that just became visible [InstanceId=1638543536400, BrowserId=1]
+15:46:33:245 (00033144) > [Epic] LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+15:46:33:256 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:33:273 (00033144) > [Epic] LogEOSUI: Social Overlay: Achievements populated for (c11...e2b).
+15:46:33:371 (00033144) > [Epic] LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+15:46:33:371 (00033144) > [Epic] LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
+15:46:33:371 (00033144) > [Epic] LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
+15:46:33:494 (00033144) > [Epic] LogEOSOverlay: Received new texture handle. [Type=0, InstanceId=1638543536400, BrowserId=1, TabId=0, Previous=0000000000000000, New=0000000080001D02]
+15:46:33:694 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:34:195 (00033144) > [Epic] LogEOSAnalytics: Record Event: eos.social.perf.api-timing <Redacted>
+15:46:38:469 (00033144) > [Epic] LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+15:46:38:469 (00033144) > [Epic] LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
+15:46:38:469 (00033144) > [Epic] LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
+15:46:39:114 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:39:263 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:46:39:663 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOS: Large tick time detected 62.1033
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:255 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:256 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:256 (00033144) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+15:47:56:257 (00033144) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+15:47:56:286 (00014100) > [Audio] Using Default Audio Sink
+15:47:57:339 (00033144) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+15:47:57:362 (00033144) > [Epic] LogEOSAuth: Verify Auth Success
